@@ -12,6 +12,15 @@ public class MainClass_01 {
 			
 			switch(num) {
 			case 1:
+				DivClass plus = new DivClass();
+				System.out.println("더하기! ");
+				System.out.print("숫자 두개를 입력해주세요 : ");
+				
+				int num1=sc.nextInt();
+				int num2=sc.nextInt();
+				
+				int result1 = plus.plus(num1, num2);
+				System.out.println("더하기의 결과는 : "+result1);
 				break;
 			case 2:
 				break;
