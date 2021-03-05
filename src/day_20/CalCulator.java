@@ -7,5 +7,5 @@ public interface CalCulator {
 	public int div(int num1,int num2); //³ª´©±â
 	public void sub(int num1,int num2); //»©±â
 	
-
+ 
 }
