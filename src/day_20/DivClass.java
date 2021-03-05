@@ -19,6 +19,8 @@ public class DivClass implements CalCulator {
 		int result = num1/num2;
 		return result;
 		
+		//³ª´°¼À 
+		
 	}
 
 	@Override
