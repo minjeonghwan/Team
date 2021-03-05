@@ -18,6 +18,17 @@ public class MainClass_01 {
 			case 3:
 				break;
 			case 4:
+				DivClass div = new DivClass();
+				
+				System.out.println("나누기! ");
+				System.out.println("나누기 할 두 수를 입력해주세요!");
+				
+				int nu1 = sc.nextInt();
+				int nu2 = sc.nextInt();
+				
+				int result = div.div(nu1, nu2);
+				System.out.println("나눗셈의 결과는 : " +result);
+				
 				break;
 			}
 		}
